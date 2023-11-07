@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 // Third-Party
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://coursify-rho.vercel.app",
     credentials: true,
   })
 );
